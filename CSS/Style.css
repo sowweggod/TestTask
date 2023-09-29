@@ -228,6 +228,7 @@ img{
 }
 
 .man{
+    float: right
 }
 
 .intro-title{
@@ -292,7 +293,7 @@ img{
     font-weight: 700;
     line-height: 56px;
     padding-top: 210px;
-    margin-bottom: 61px;
+    margin-bottom: 26px;
 
 }
 .serv-subtitle{
@@ -327,15 +328,20 @@ img{
 
 .serv-card{
     width: 350px;
+    height: 354px;
     text-align: center;
-    box-shadow: #458FF6;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
     margin-bottom: 37px;
     grid-column: span 1;
+    border-radius: 20px;
 }
 
 .serv-card-pic{
     margin-bottom: 22px;
     max-width: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
@@ -356,8 +362,17 @@ img{
     line-height: 28px;
     max-width: 266px;
     text-align: left;
+    padding-left: 39px;
 }
+.serv-square {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 33px;
 
+}
 .learn-more{
     padding: 20px 30px;
     color: #458FF6;
@@ -375,3 +390,226 @@ img{
     color: #FFFFFF;
 }
 /*Serv style end*/
+
+/*Health style*/
+
+.health-wrap{
+     max-width: 1400px;
+     margin: auto;
+     text-align: left;
+
+ }
+
+.health-title{
+    color: #462E6A;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 480px;
+    right: 0;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
+
+.health-subtitle{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 450px;
+    right: 0;
+    margin-bottom: 37px;
+}
+
+.health-pic{
+    float: left;
+}
+
+.square {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: black;
+    margin-bottom: 31px;
+
+}
+/*Health style end*/
+
+/*Download style*/
+
+.down-wrap{
+    max-width: 1400px;
+    margin: auto;
+    text-align: left;
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-position: right, top;
+    background-size: 930px;
+}
+
+.down-title{
+    color: #462E6A;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 480px;
+    right: 0;
+    margin-right: auto;
+    margin-bottom: 26px;
+    margin-top: 205px;
+}
+
+.down-subtitle{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 450px;
+    right: 0;
+    margin-bottom: 37px;
+}
+
+.down-pic{
+    float: left;
+    max-width: 626px;
+}
+
+.square {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: black;
+    margin-bottom: 31px;
+
+}
+
+/*Download style end*/
+
+
+/*Doc style*/
+
+.doc-wrap{
+    max-width: 1400px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.doc-title{
+    color: #462E6A;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 480px;
+    right: 0;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
+
+.doc-subtitle{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 450px;
+    right: 0;
+    margin-bottom: 37px;
+}
+
+.doc-pic{
+    float: left;
+    margin-top: 450px;
+}
+
+.square {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: black;
+    margin-bottom: 31px;
+
+}
+
+/*Doc style end*/
+
+/*Review style*/
+
+.rev-wrap{
+    width: 1400px;
+    height: 720px;
+    max-width: 1400px;
+    max-height: 720px;
+    margin: auto;
+    text-align: center;
+}
+
+.rev-cards{
+    display: flex;
+    width: 1122px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 37px 36px;
+    flex-wrap: wrap;
+    padding-bottom: 69px;
+    background: #5A98F2;
+}
+
+.rev-card{
+    width: 350px;
+    height: 354px;
+    text-align: center;
+    margin-bottom: 37px;
+    grid-column: span 1;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.rev-card-pic{
+    margin-bottom: 22px;
+    max-width: 92px;
+    display: block;
+    margin-right: auto;
+
+}
+
+.name{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.24px;
+}
+
+.rev-card-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.rev-square {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 33px;
+
+}
+
+/*Review style end*/
